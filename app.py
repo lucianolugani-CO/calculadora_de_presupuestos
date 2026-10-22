@@ -5,6 +5,9 @@ import pdf_presupuesto
 
 RENGLONES = 3
 
+
+
+
 st.title(mi_negocio.NOMBRE_NEGOCIO)
 st.caption(mi_negocio.RUBRO)
 numero = st.number_input("N° de presupuesto", min_value=1, step=1)
